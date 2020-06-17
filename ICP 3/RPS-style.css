@@ -1,0 +1,65 @@
+/*CSS Function for Rock Paper Scissors */
+*{
+    margin: 50;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(251, 255, 255);
+}
+header{
+
+    padding: 25px;
+    padding-bottom: 25px;
+}
+
+header>h2{
+    color: greenyellow;
+    text-align: left;
+    font-family: Times New Roman, A;
+}
+.results{
+    font-size: 22px;
+    color: skyblue;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Times New Roman, A;
+}
+
+/*Aligning the photos of Rock paper scissors*/
+.paddings {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding: 5px;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-top: 50px;
+}
+.deco{
+    float: left;
+    padding: 4px;
+    margin-left: 200px;
+    height: 400px !important;
+    width: 400px !important;
+    padding-top: 50px;
+
+}
+.deco:hover{
+    cursor: pointer;
+}
+#move_selection{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #020306;
+    font-size: 25px;
+}
+
+#move_selection{
+    text-align: left;
+    font-family: Arial, serif;
+}
