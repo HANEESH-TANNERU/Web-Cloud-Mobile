@@ -11,7 +11,7 @@ function getGithubInfo(user) {
         showUser(data);
 
     }).fail(function(){
-        console.log("Some error Happened");
+        console.log("Error Occured");
         noSuchUser(user);
     });
 
@@ -20,18 +20,18 @@ function getGithubInfo(user) {
 function showUser(user) {
 
     document.getElementById('image').src=user.avatar_url;
-    document.getElementById('txtname').innerText=user.name;
-    document.getElementById('txtid').innerText=user.id;
-    document.getElementById('txturl').href=user.url;
-    document.getElementById('txturl').innerText=user.html_url;
-    document.getElementById('txtrepository').innerText=user.public_repos;
-    document.getElementById('txtfollowers').innerText=user.followers;
-    document.getElementById('txtfollowing').innerText=user.following;
-    document.getElementById('txtcompany').innerText=user.company;
+    document.getElementById('Name').innerText=user.name;
+    document.getElementById('ID').innerText=user.id;
+    document.getElementById('URL').href=user.url;
+    document.getElementById('URL').innerText=user.html_url;
+    document.getElementById('Repository').innerText=user.public_repos;
+    document.getElementById('Followers').innerText=user.followers;
+    document.getElementById('Following').innerText=user.following;
+    document.getElementById('Company').innerText=user.company;
 }
 function noSuchUser(username) {
     if(data.message == "Not Found" || username == '') {
-        alert("User not found");
+        alert("We cannot find the User");
     }
 }
 $(document).ready(function () {
