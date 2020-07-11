@@ -1,0 +1,32 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Pizza App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="pizza_menu">Try These</string>
+    <string name="name_field">Enter your name</string>
+    <string name="topping_field">Select your Toppings:</string>
+    <string name="cheese_field">Cheese</string>
+    <string name="pork_field">Bacon</string>
+    <string name="onion_field">Onion</string>
+    <string name="sauce_field">Sauce</string>
+    <string name="quantity_field">Quantity:</string>
+    <string name="initial_quantity_value">2</string>
+
+    <!-- For Pizza Order Summary -->
+    <string name="summary_order_name">Name:<xliff:g id="name" example="HANEESH">%s</xliff:g></string>
+    <string name="summary_order_cheese"><b>Cheese: </b><xliff:g id="addCheese" example="Yes">%s</xliff:g></string>
+    <string name="summary_order_pork"><b>Bacon: </b><xliff:g id="addBacon" example="Yes">%s</xliff:g></string>
+    <string name="summary_order_onion"><b>Onion: </b><xliff:g id="addOnion" example="yes">%s</xliff:g></string>
+    <string name="summary_order_sauce"><b>Sauce: </b><xliff:g id="addSauce" example="yes">%s</xliff:g></string>
+    <string name="summary_order_quantity"><b>Quantity: </b><xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="summary_order_total_price"><b>Total: </b>$ <xliff:g id="price" example="10">%.2f</xliff:g></string>
+    <string name="thank_you"><b>Thank you!</b></string>
+
+    <string name="summaryMessage"><u>Your Order Summary</u></string>
+</resources>
