@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordingActivity"
+    android:background= "@drawable/haneesh2">
+
+    <Button
+        android:id="@+id/Begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginRight="278dp"
+        android:background="#FF9800"
+        android:onClick="startrecord"
+        android:text="Begin"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/End"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Begin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#2196F3"
+        android:onClick="stopRecord"
+        android:text="End"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/AudioPlay"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/End"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:background="#FFEB3B"
+        android:onClick="playRecord"
+        android:text="Audio Play"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/StopPlay"
+        android:layout_width="11dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/AudioPlay"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="180dp"
+        android:background="#FF4081"
+        android:onClick="stopRecord"
+        android:text="Stop Recording" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginBottom="627dp"
+        android:text="Please record"
+        android:textColor="#201E1C"
+        android:textSize="24sp" />
+
+</RelativeLayout>
