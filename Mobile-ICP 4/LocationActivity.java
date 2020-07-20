@@ -62,7 +62,7 @@ public class LocationActivity extends AppCompatActivity implements OnMapReadyCal
      * Once the permission is allow then we are initializing the map.
      */
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    public void RequestResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         mLocationPermission = false;
         switch (requestCode) {
             case 2345:
